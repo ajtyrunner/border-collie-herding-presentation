@@ -263,9 +263,9 @@ export default function Home() {
             <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-4xl">🎥</span>
             </div>
-            <h2 className="section-title text-center text-white">Trailové Pasení v Akci</h2>
+            <h2 className="section-title text-center text-white">Pole pro Trailové Závody</h2>
             <p className="text-xl text-blue-100 max-w-2xl mx-auto">
-              Podívejte se na skutečné trailové závody a uvidíte dokonalou souhru mezi border collie a pastýřem
+              Podívejte se na typické pole, kde se konají trailové závody s border collie
             </p>
           </div>
 
@@ -276,7 +276,7 @@ export default function Home() {
                   width="100%"
                   height="100%"
                   src="https://www.youtube.com/embed/6bJPkAXJ3fY"
-                  title="Trailové pasení Border Collie"
+                  title="Pole pro trailové závody Border Collie"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -287,10 +287,10 @@ export default function Home() {
                 <div className="flex items-center justify-between">
                   <div>
                     <h3 className="text-xl font-semibold text-border-brown mb-2">
-                      Ukázka Trailového Závodu
+                      Pole pro Trailové Závody
                     </h3>
                     <p className="text-gray-700">
-                      Sledujte, jak zkušený border collie provádí všechny fáze závodu - od outrun až po shed
+                      Ukázka typického pole s překážkami a branami používaných pro trailové závody
                     </p>
                   </div>
                   <a
@@ -308,26 +308,26 @@ export default function Home() {
 
             <div className="grid md:grid-cols-3 gap-6 mt-8">
               <div className="bg-white/20 backdrop-blur-sm rounded-lg p-6 text-center">
-                <div className="text-3xl mb-3">👁️</div>
-                <h4 className="font-semibold text-white mb-2">Pozorujte &quot;Eye&quot;</h4>
+                <div className="text-3xl mb-3">🏞️</div>
+                <h4 className="font-semibold text-white mb-2">Rozložení Pole</h4>
                 <p className="text-blue-100 text-sm">
-                  Všimněte si intenzivního pohledu psa při kontrole stáda
+                  Všimněte si rozmístění bran a překážek na závodním poli
                 </p>
               </div>
 
               <div className="bg-white/20 backdrop-blur-sm rounded-lg p-6 text-center">
-                <div className="text-3xl mb-3">🗣️</div>
-                <h4 className="font-semibold text-white mb-2">Poslouchejte Povely</h4>
+                <div className="text-3xl mb-3">🚪</div>
+                <h4 className="font-semibold text-white mb-2">Brány a Překážky</h4>
                 <p className="text-blue-100 text-sm">
-                  Závodník používá standardní anglické povely pro řízení psa
+                  Standardní prvky používané v trailových závodech
                 </p>
               </div>
 
               <div className="bg-white/20 backdrop-blur-sm rounded-lg p-6 text-center">
-                <div className="text-3xl mb-3">🎯</div>
-                <h4 className="font-semibold text-white mb-2">Sledujte Precision</h4>
+                <div className="text-3xl mb-3">📏</div>
+                <h4 className="font-semibold text-white mb-2">Rozměry a Vzdálenosti</h4>
                 <p className="text-blue-100 text-sm">
-                  Každý pohyb psa je promyšlený a přesný
+                  Přesné rozměry pole podle mezinárodních standardů
                 </p>
               </div>
             </div>
