@@ -12,12 +12,12 @@ export default function Home() {
   const commands = [
     { command: 'Come bye', description: 'Jdi vlevo kolem stáda' },
     { command: 'Away to me', description: 'Jdi vpravo kolem stáda' },
-    { command: 'Walk up', description: 'Jdi pomalu přímo k ovcím' },
+    { command: 'Walk on', description: 'Jdi pomalu přímo k ovcím' },
     { command: 'Lie down', description: 'Lehni si a zůstaň' },
     { command: 'Stand', description: 'Stůj a pozoruj' },
     { command: 'Steady', description: 'Zpomal, buď opatrný' },
     { command: 'Look back', description: 'Otočí se a podívej se zpět' },
-    { command: 'That\'ll do', description: 'To stačí, přijď zpět' },
+    { command: 'Konec', description: 'To stačí, přijď zpět' },
   ]
 
   const principles = [
