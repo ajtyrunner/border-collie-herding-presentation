@@ -63,10 +63,10 @@ export default function Home() {
             Mistr Pasení Ovcí
           </h2>
           <p className="text-xl mb-8 opacity-80">
-                         Objevte fascinující svět trailových závodů a umění pasení ovcí
+            Objevte fascinující svět trailových závodů a umění pasení ovcí
           </p>
           <div className="flex justify-center space-x-4">
-            <button 
+            <button
               onClick={() => document.getElementById('principles')?.scrollIntoView({ behavior: 'smooth' })}
               className="btn-primary"
             >
@@ -74,7 +74,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-        
+
         {/* Animated sheep and dog icons */}
         <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2">
           <div className="flex items-center space-x-8 animate-bounce">
@@ -95,7 +95,7 @@ export default function Home() {
               Pasení ovcí je umění založené na přirozených instinktech a letech tréninku
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {principles.map((principle, index) => (
               <div key={index} className="card">
@@ -119,7 +119,7 @@ export default function Home() {
               Standardní povely používané v mezinárodních soutěžích
             </p>
           </div>
-          
+
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-lg shadow-2xl overflow-hidden">
               <div className="p-6">
@@ -131,7 +131,7 @@ export default function Home() {
                     <div key={index} className="flex items-center justify-between p-4 bg-wool-cream rounded-lg">
                       <div className="flex-1">
                         <span className="font-bold text-border-brown text-lg">
-                          "{cmd.command}"
+                          &quot;{cmd.command}&quot;
                         </span>
                       </div>
                       <div className="flex-2 ml-4">
@@ -156,7 +156,7 @@ export default function Home() {
               Fascinující fakta o nejinteligentnějším psím plemeni světa
             </p>
           </div>
-          
+
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-6">
               {facts.map((fact, index) => (
@@ -174,12 +174,12 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Dog className="w-16 h-16 text-white mx-auto mb-4" />
-                         <h2 className="section-title text-center text-white">Trailové Závody</h2>
-             <p className="text-xl text-yellow-100 max-w-2xl mx-auto">
-               Soutěže, kde se prokazuje dokonalá souhara mezi psem a pastýřem
+            <h2 className="section-title text-center text-white">Trailové Závody</h2>
+            <p className="text-xl text-yellow-100 max-w-2xl mx-auto">
+              Soutěže, kde se prokazuje dokonalá souhara mezi psem a pastýřem
             </p>
           </div>
-          
+
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-lg shadow-2xl p-8">
               <div className="grid md:grid-cols-2 gap-8">
@@ -188,10 +188,10 @@ export default function Home() {
                     Průběh závodu
                   </h3>
                   <ul className="space-y-3 text-gray-700">
-                                         <li className="flex items-start">
-                       <span className="text-grass-green mr-2">1.</span>
-                       <span>Outrun - obejití stáda na otevřených pastvinách nebo travnatých polích</span>
-                     </li>
+                    <li className="flex items-start">
+                      <span className="text-grass-green mr-2">1.</span>
+                      <span>Outrun - obejití stáda na otevřených pastvinách nebo travnatých polích</span>
+                    </li>
                     <li className="flex items-start">
                       <span className="text-grass-green mr-2">2.</span>
                       <span>Lift - zvednutí ovcí</span>
@@ -210,7 +210,7 @@ export default function Home() {
                     </li>
                   </ul>
                 </div>
-                
+
                 <div>
                   <h3 className="text-2xl font-semibold text-border-brown mb-4">
                     Hodnocení
@@ -259,9 +259,9 @@ export default function Home() {
           <h3 className="text-2xl font-semibold mb-4">
             Border Collie - Mistr Pasení Ovcí
           </h3>
-                     <p className="text-yellow-200 max-w-2xl mx-auto">
-             Prezentace o fascinujícím světě trailových závodů a umění pasení ovcí s nejinteligentnějším psím plemenem světa.
-           </p>
+          <p className="text-yellow-200 max-w-2xl mx-auto">
+            Prezentace o fascinujícím světě trailových závodů a umění pasení ovcí s nejinteligentnějším psím plemenem světa.
+          </p>
         </div>
       </footer>
     </div>
