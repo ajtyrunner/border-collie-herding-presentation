@@ -12,19 +12,38 @@ Prezentační webová stránka o trailových závodech border collie v pasení o
 ## 🚀 Rychlé spuštění
 
 ### Prerekvizity
-- Node.js 18.0 nebo novější
+- Node.js 18.19.0 LTS (doporučeno pomocí NVM)
 - npm nebo yarn
+- NVM (Node Version Manager)
 
-### Instalace
+### Instalace s NVM (doporučeno)
 ```bash
 # Klonování repositáře
 git clone https://github.com/ajtyrunner/border-collie-herding-presentation.git
 cd border-collie-herding-presentation
 
+# Automatické nastavení Node.js verze a instalace
+./setup-node.sh
+
+# NEBO manuálně:
+# Načtení NVM
+source ~/.nvm/nvm.sh
+
+# Použití správné verze Node.js
+nvm use
+# (pokud není nainstalovaná, spustit: nvm install)
+
 # Instalace závislostí
 npm install
 
 # Spuštění ve vývojovém režimu
+npm run dev
+```
+
+### Ruční instalace
+```bash
+# Pokud máte již správnou verzi Node.js
+npm install
 npm run dev
 ```
 
