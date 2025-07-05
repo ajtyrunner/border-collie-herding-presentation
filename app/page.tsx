@@ -208,6 +208,10 @@ export default function Home() {
                       <span className="text-grass-green mr-2">5.</span>
                       <span>Pen - zahánění do ohradky</span>
                     </li>
+                    <li className="flex items-start">
+                      <span className="text-grass-green mr-2">6.</span>
+                      <span>Shed - oddělení označené ovce ze stáda</span>
+                    </li>
                   </ul>
                 </div>
 
@@ -236,9 +240,13 @@ export default function Home() {
                       <span>Pen</span>
                       <span className="font-semibold">10 bodů</span>
                     </div>
+                    <div className="flex justify-between">
+                      <span>Shed</span>
+                      <span className="font-semibold">10 bodů</span>
+                    </div>
                     <div className="flex justify-between border-t pt-2 font-bold">
                       <span>Celkem</span>
-                      <span>90 bodů</span>
+                      <span>100 bodů</span>
                     </div>
                   </div>
                 </div>
