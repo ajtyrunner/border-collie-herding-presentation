@@ -1,0 +1,24 @@
+# Cursor Rules pro Border Collie Herding Presentation
+
+## Node.js Setup
+- **NIKDY nepoužívej čistý `npm` příkaz v tomto projektu**
+- Vždy použij `./setup-node.sh` nebo `source ./setup-node.sh` před jakýmkoli npm příkazem
+- Projekt vyžaduje Node.js 18.19.0 přes NVM
+- Pro build: `source ./setup-node.sh && npm run build`
+- Pro dev: `source ./setup-node.sh && npm run dev`
+
+## Projekt specifika
+- Next.js 14 s TypeScript
+- Tailwind CSS s custom barvami (sheep-white, wool-cream, border-brown, grass-green, sky-blue)
+- React 18 s lucide-react ikony
+- Prezentace o trailových závodech border collie v češtině
+
+## Pravidla pro edits
+- Vždy použij &quot; místo " v JSX pro ESLint
+- Responzivní design s gradient pozadími
+- Všechny texty v češtině
+- Emoji pro vizuální prvky (🐑, 🐕, 🎥, 👁️, etc.)
+
+## Deployment
+- Vercel: https://ovce-paseni.vercel.app
+- GitHub: https://github.com/ajtyrunner/border-collie-herding-presentation 
