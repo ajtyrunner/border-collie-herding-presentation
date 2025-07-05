@@ -146,6 +146,85 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Video Section */}
+      <section className="py-20 bg-gradient-to-b from-sky-blue to-grass-green">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
+              <span className="text-4xl">🎥</span>
+            </div>
+            <h2 className="section-title text-center text-white">Pole pro Trailové Závody</h2>
+            <p className="text-xl text-blue-100 max-w-2xl mx-auto">
+              Podívejte se na typické pole, kde se konají trailové závody s border collie
+            </p>
+          </div>
+
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-white rounded-lg shadow-2xl overflow-hidden">
+              <div className="aspect-video">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/6bJPkAXJ3fY"
+                  title="Pole pro trailové závody Border Collie"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                ></iframe>
+              </div>
+              <div className="p-6 bg-wool-cream">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <h3 className="text-xl font-semibold text-border-brown mb-2">
+                      Pole pro Trailové Závody
+                    </h3>
+                    <p className="text-gray-700">
+                      Ukázka typického pole s překážkami a branami používaných pro trailové závody
+                    </p>
+                  </div>
+                  <a
+                    href="https://youtu.be/6bJPkAXJ3fY"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-primary flex items-center space-x-2"
+                  >
+                    <span>🎥</span>
+                    <span>Otevřít na YouTube</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6 mt-8">
+              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-6 text-center">
+                <div className="text-3xl mb-3">🏞️</div>
+                <h4 className="font-semibold text-white mb-2">Rozložení Pole</h4>
+                <p className="text-blue-100 text-sm">
+                  Všimněte si rozmístění bran a překážek na závodním poli
+                </p>
+              </div>
+
+              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-6 text-center">
+                <div className="text-3xl mb-3">🚪</div>
+                <h4 className="font-semibold text-white mb-2">Brány a Překážky</h4>
+                <p className="text-blue-100 text-sm">
+                  Standardní prvky používané v trailových závodech
+                </p>
+              </div>
+
+              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-6 text-center">
+                <div className="text-3xl mb-3">📏</div>
+                <h4 className="font-semibold text-white mb-2">Rozměry a Vzdálenosti</h4>
+                <p className="text-blue-100 text-sm">
+                  Přesné rozměry pole podle mezinárodních standardů
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Facts Section */}
       <section className="py-20 bg-wool-cream">
         <div className="container mx-auto px-4">
@@ -250,85 +329,6 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Video Section */}
-      <section className="py-20 bg-gradient-to-b from-sky-blue to-grass-green">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
-              <span className="text-4xl">🎥</span>
-            </div>
-            <h2 className="section-title text-center text-white">Pole pro Trailové Závody</h2>
-            <p className="text-xl text-blue-100 max-w-2xl mx-auto">
-              Podívejte se na typické pole, kde se konají trailové závody s border collie
-            </p>
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            <div className="bg-white rounded-lg shadow-2xl overflow-hidden">
-              <div className="aspect-video">
-                <iframe
-                  width="100%"
-                  height="100%"
-                  src="https://www.youtube.com/embed/6bJPkAXJ3fY"
-                  title="Pole pro trailové závody Border Collie"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="w-full h-full"
-                ></iframe>
-              </div>
-              <div className="p-6 bg-wool-cream">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <h3 className="text-xl font-semibold text-border-brown mb-2">
-                      Pole pro Trailové Závody
-                    </h3>
-                    <p className="text-gray-700">
-                      Ukázka typického pole s překážkami a branami používaných pro trailové závody
-                    </p>
-                  </div>
-                  <a
-                    href="https://youtu.be/6bJPkAXJ3fY"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn-primary flex items-center space-x-2"
-                  >
-                    <span>🎥</span>
-                    <span>Otevřít na YouTube</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="grid md:grid-cols-3 gap-6 mt-8">
-              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-6 text-center">
-                <div className="text-3xl mb-3">🏞️</div>
-                <h4 className="font-semibold text-white mb-2">Rozložení Pole</h4>
-                <p className="text-blue-100 text-sm">
-                  Všimněte si rozmístění bran a překážek na závodním poli
-                </p>
-              </div>
-
-              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-6 text-center">
-                <div className="text-3xl mb-3">🚪</div>
-                <h4 className="font-semibold text-white mb-2">Brány a Překážky</h4>
-                <p className="text-blue-100 text-sm">
-                  Standardní prvky používané v trailových závodech
-                </p>
-              </div>
-
-              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-6 text-center">
-                <div className="text-3xl mb-3">📏</div>
-                <h4 className="font-semibold text-white mb-2">Rozměry a Vzdálenosti</h4>
-                <p className="text-blue-100 text-sm">
-                  Přesné rozměry pole podle mezinárodních standardů
-                </p>
               </div>
             </div>
           </div>
